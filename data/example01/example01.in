@@ -1,0 +1,48 @@
+{{header}}
+{{include catalog.in}}
+{{object pages}} <<
+  /Type /Pages
+  /MediaBox [0 0 200 200]
+  /Count 1
+  /Kids [{{ref page1}}]
+>>
+endobj
+{{object page1}} <<
+  /Type /Page
+  /Parent {{ref pages}}
+  /Resources <<
+    /Font <<
+      /F1 {{ref font1}}
+      /F2 {{ref font2}}
+    >>
+  >>
+  /Contents {{ref page1_contents}}
+>>
+endobj
+{{object font1}} <<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Times-Roman
+>>
+endobj
+{{object font2}} <<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+{{object page1_contents}} <<
+  {{streamlen}}
+>>
+stream
+BT
+20 180 Td
+/F1 6 Tf
+({{var description}}) Tj
+ET
+endstream
+endobj
+{{xref}}
+{{trailer}}
+{{startxref}}
+%%EOF

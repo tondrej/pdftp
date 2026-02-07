@@ -1,0 +1,67 @@
+{{header}}
+{{object catalog}} <<
+  /Type /Catalog
+  /Pages {{ref pages}}
+  /Metadata {{ref metadata}}
+  /OutputIntents [{{ref outputintent1}}]
+  {{if cat_ver}}
+  /Version /{{var cat_ver}}
+  {{endif}}
+>>
+endobj
+{{include ../common/xmp-pdfa1b.in}}
+{{object outputintent1}} <<
+  /Type /OutputIntent
+  /S /GTS_PDFA1
+  /Info (Gray Gamma 2.2)
+  /OutputConditionIdentifier (Adobe Gray)
+  /DestOutputProfile {{ref outputintent1profile}}
+>>
+endobj
+{{object outputintent1profile}} <<
+  {{streamlen}}
+  /Filter /FlateDecode
+  /N 1
+>>
+stream
+{{includeraw ../common/gray-flate.dat}}
+endstream
+endobj
+{{object pages}} <<
+  /Type /Pages
+  /MediaBox [0 0 200 200]
+  /Count 1
+  /Kids [{{ref page1}}]
+>>
+endobj
+{{object page1}} <<
+  /Type /Page
+  /Parent {{ref pages}}
+  /Resources <<
+    /Font <<
+      /F1 {{ref jetbrains_sans}}
+    >>
+  >>
+  /Contents {{ref page1_contents}}
+>>
+endobj
+{{include ../common/jetbrains-sans.in}}
+{{object page1_contents}} <<
+  {{streamlen}}
+>>
+stream
+BT
+20 180 Td
+/F1 6 Tf
+<29464D4D50> Tj
+ET
+endstream
+endobj
+{{xref}}
+trailer <<
+  /Root {{ref catalog}}
+  /ID [<5A4DDDC2438C3CA2CFC4B813E5B68C5B><5A4DDDC2438C3CA2CFC4B813E5B68C5B>]
+  {{trailersize}}
+>>
+{{startxref}}
+%%EOF

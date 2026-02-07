@@ -1,0 +1,24 @@
+{{object metadata}} <<
+  /Type /Metadata
+  /Subtype /XML
+  {{streamlen}}
+>>
+stream
+<?xpacket begin='þÿ' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+      <dc:creator>
+        <rdf:Seq>
+          <rdf:li>pdftp</rdf:li>
+        </rdf:Seq>
+      </dc:creator>
+    </rdf:Description>
+    <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="" xmp:CreatorTool="pdftp" xmp:CreateDate="2025-11-11T11:11:11+01:00" xmp:ModifyDate="2025-11-11T11:11:11+01:00"/>
+    <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="" pdf:Producer="pdftp"/>
+    <rdf:Description xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/" rdf:about="" pdfaid:part="1" pdfaid:conformance="B"/>
+  </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end='w'?>
+endstream
+endobj

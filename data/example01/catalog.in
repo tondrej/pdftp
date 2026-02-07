@@ -1,0 +1,8 @@
+{{object catalog}} <<
+  /Type /Catalog
+  /Pages {{ref pages}}
+  {{if cat_ver}}
+    /Version /{{var cat_ver}}
+  {{endif}}
+>>
+endobj
